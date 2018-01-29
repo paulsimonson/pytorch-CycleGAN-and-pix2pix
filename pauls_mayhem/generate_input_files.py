@@ -32,8 +32,8 @@ print("imageA width:", width)
 i_max = 0.5 * (height/subimage_size)
 j_max = width/subimage_size
 
-output_directoryA = "dogbox/trainA/"
-output_directoryB = "dogbox/trainB/"
+output_directoryA = "../datasets/dogbox/trainA/"
+output_directoryB = "../datasets/dogbox/trainB/"
 file_name_increment = 1
 file_name_baseA = "_A.jpg"
 file_name_baseB = "_B.jpg"
